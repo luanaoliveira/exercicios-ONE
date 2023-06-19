@@ -54,6 +54,33 @@
   margin-left: 0;
 }
 
+.videoSobre .container {
+  display: flex;
+}
+
+.videoSobre-video {
+  flex-grow: 1;
+}
+
+.videoSobre-sobre {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+ 
+}
+
+.videoSobre-sobre-list {
+  flex-grow: 1;
+}
+
+.videoSobre-button {
+  width: 100%;
+
+}
+
+
+
 /* Parte mobile */
 @media(max-width: 768px){
   .cabecalhoPrincipal-nav {
@@ -97,6 +124,10 @@
     justify-content: center;
   }
 
+  .cabecalhoPrincipal-nav-link-app {
+    order: -1;
+  }
+  
 }
 
 
